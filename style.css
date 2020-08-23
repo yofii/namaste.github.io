@@ -7,10 +7,10 @@ body {
     background-color: #eaeaea;
     height: 100%;
     }
-    
+ 
 .container {
-               width:100px;
-               height:70px;
+               width: 1198px;
+               height: 616px;
                margin: 0 auto;
                position:absolute;
                top:50%;
@@ -18,9 +18,61 @@ body {
                margin-left: -50px;
                margin-top: -35px;
                font-family: 'Montserrat', sans-serif;
+               font-style: normal;
                text-align: center;
 }
 
+/* Name */
+
+h1.name{
+width: 452px;
+height: 95px;
+left: 494px;
+top: 312px;
+font-weight: 800%;
+font-size: 85px;
+line-height: 104px;
+text-align: center;
+color: #252525;
+}
+
+
+/* ENTER */
+
+h3.enter {
+position: absolute;
+width: 127px;
+height: 3px;
+left: 657px;
+top: 537px;
+
+font-family: Montserrat;
+
+font-weight: 300%;
+font-size: 35px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #252525;
+
+}
+
+/* Title goes here */
+
+h2.tagline{
+width: 466px;
+height: 7px;
+left: 487px;
+top: 419px;
+font-weight: 300%;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+text-transform: uppercase;
+color: #252525;
+}
 /* Rectangle 1 */
 
 {
@@ -35,65 +87,3 @@ box-sizing: border-box;
 border-radius: 4px;
 }
 
-/* ENTER */
-
-.container.enter {
-position: absolute;
-width: 127px;
-height: 3px;
-left: 657px;
-top: 537px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300%;
-font-size: 35px;
-line-height: 43px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #252525;
-
-}
-
-/* Title goes here */
-
-.container.tagline{
-position: absolute;
-width: 466px;
-height: 7px;
-left: 487px;
-top: 419px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300%;
-font-size: 50px;
-line-height: 61px;
-text-align: center;
-text-transform: uppercase;
-
-color: #252525;
-
-}
-
-/* Name */
-
-
-.container.name{
-position: absolute;
-width: 452px;
-height: 95px;
-left: 494px;
-top: 312px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 800%;
-font-size: 85px;
-line-height: 104px;
-text-align: center;
-
-color: #252525;
-}
