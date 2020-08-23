@@ -1,11 +1,11 @@
-@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap';
 * {
     margin: 0;
     padding: 0;
     cursor: none
 }
 body {
-    background-color: #FFFCF7;
+    background-color: #232C33;
     height: 100%;
     }
     
@@ -16,8 +16,9 @@ body {
 
 .bodytext.head {
     padding: .5em .3em 0;
+    letter-spacing: 0.1em;
     margin: .5em 0;
-    font-size: 675%;
+    font-size: 800%;
     font-weight: 800;
     color: #fff;
     text-shadow: 2px 2px 5px #913636
@@ -36,6 +37,8 @@ a.button {
     -moz-appearance: button;
     appearance: button;
 
-    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 400%;
+    text-align: center;
     color: initial;
 }
