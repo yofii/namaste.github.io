@@ -21,27 +21,79 @@ body {
                text-align: center;
 }
 
-.container.name {
-    padding: .5em .3em 0;
-    letter-spacing: 0.1em;
-    margin: .5em 0;
-    font-size: 800%;
-    font-weight: 800;
-    color: #fff;
-    text-shadow: 2px 2px 5px #252525;
+/* Rectangle 1 */
+
+{
+position: absolute;
+width: 198px;
+height: 74px;
+left: 621px;
+top: 501px;
+
+border: 1px solid #252525;
+box-sizing: border-box;
+border-radius: 4px;
 }
 
-.container.tagline {
-    padding: .5em;
-    margin: .5em 0;
-    font-size: 600%;
-    color: #fff;
-    text-shadow: 2px 2px 5px #252525;
+/* ENTER */
+
+.container.enter {
+position: absolute;
+width: 127px;
+height: 3px;
+left: 657px;
+top: 537px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300%;
+font-size: 35px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #252525;
+
 }
 
-.container.button {
-    font-size: 400%;
-    text-align: center;
-    color:#fff;
-    text-shadow: 2px 2px 5px #252525;
+/* Title goes here */
+
+.container.tagline{
+position: absolute;
+width: 466px;
+height: 7px;
+left: 487px;
+top: 419px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300%;
+font-size: 50px;
+line-height: 61px;
+text-align: center;
+text-transform: uppercase;
+
+color: #252525;
+
+}
+
+/* Name */
+
+
+.container.name{
+position: absolute;
+width: 452px;
+height: 95px;
+left: 494px;
+top: 312px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800%;
+font-size: 85px;
+line-height: 104px;
+text-align: center;
+
+color: #252525;
 }
